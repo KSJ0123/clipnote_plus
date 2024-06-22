@@ -34,7 +34,7 @@ def clipture():
             clipdelet.config(command=lambda cl=clippaste , dl=clipdelet : clip_delet(cl,dl))
         if cv2.get() != 1 :
             break
-
+#삭제
 def clip_delet(cl,dl):
     dl.destroy()
     cl.destroy()
